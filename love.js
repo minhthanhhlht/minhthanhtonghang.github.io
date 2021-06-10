@@ -1,8 +1,8 @@
 let date = new Date
 let day = date.getDate()
 let month = date.getMonth()
-let leftImg = "https://64.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gifv"
-let rightImg = "https://i.pinimg.com/originals/ad/95/b0/ad95b0b5cc8d8ce4467d666c927b6a84.gif"
+let leftImg = "./img/hangg.jpg"
+let rightImg = "./img/hangg.jpg"
 let title = document.querySelector("h1")
 let propose = document.getElementById("propose")
 month +=1
@@ -30,7 +30,7 @@ let leftImage = (link) => {
     Swal.fire({
         title: 'Cái đẹp không thể nào ghi hình, mà chỉ tồn tại trong đôi mắt kẻ si tình <3',
         text: `Ngày tình yêu bắt đầu: ${day} tháng ${month} năm ${year}` ,
-        imageUrl: './imagines/test2.png',
+        imageUrl: './img/hoahong.jpg',
         // imageWidth: 162.5,
         // imageHeight: 100,
         imageAlt: 'Custom image',
@@ -48,7 +48,7 @@ let rightImage = (link) => {
     Swal.fire({
         title: 'Vậy là, em làm vợ anh nhé!' ,
         text: `Ngày rước nàng về dinh: ${day} tháng ${month} năm ${year}` ,
-        imageUrl: './imagines/test1.png',
+        imageUrl: './img/hoahong.jpg',
         // imageWidth: 162.5,
         imageHeight: 300,
         imageAlt: 'Custom image',
