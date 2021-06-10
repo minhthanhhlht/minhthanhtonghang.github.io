@@ -19,7 +19,7 @@ let code = prompt("!!!Nhập vào mã bí mật!!!")
 
 
 if(code === "yêu Hằng nhiều"){
-    body.style.display = "block"
+    body.style.display = "hidden"
 }
 
 let changeTitle = (text) => {
