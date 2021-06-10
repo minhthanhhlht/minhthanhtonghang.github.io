@@ -19,7 +19,7 @@ let code = prompt("!!!Nhập vào mã bí mật!!!")
 
 
 if(code === "yêu Hằng nhiều"){
-    body.style.display = "hidden"
+    body.style.display = "block"
 }
 
 let changeTitle = (text) => {
@@ -31,8 +31,8 @@ let leftImage = (link) => {
         title: 'Cái đẹp không thể nào ghi hình, mà chỉ tồn tại trong đôi mắt kẻ si tình <3',
         text: `Ngày tình yêu bắt đầu: ${day} tháng ${month} năm ${year}` ,
         imageUrl: './img/hoahong.jpg',
-        // imageWidth: 162.5,
-        // imageHeight: 100,
+        imageWidth: 200,
+        imageHeight: 200,
         imageAlt: 'Custom image',
         background: ' rgb(255, 158, 158)',
         backdrop: `
@@ -49,8 +49,8 @@ let rightImage = (link) => {
         title: 'Vậy là, em làm vợ anh nhé!' ,
         text: `Ngày rước nàng về dinh: ${day} tháng ${month} năm ${year}` ,
         imageUrl: './img/hoahong.jpg',
-        // imageWidth: 162.5,
-        imageHeight: 300,
+        imageWidth: 200,
+        imageHeight: 200,
         imageAlt: 'Custom image',
         background: ' rgb(255, 144, 144)',
         backdrop: `
